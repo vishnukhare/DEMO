@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
         //
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrange),
         useMaterial3: true,
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
@@ -91,7 +91,7 @@ class _MyHomePageState extends State<MyHomePage> {
         // in the middle of the parent.
         child: Column(
           // Column is also a layout widget. It takes a list of children and
-          // arranges them vertically. By default, it sizes itself to fit its
+          // arranges them vertically. By default, it sgit izes itself to fit its
           // children horizontally, and tries to be as tall as its parent.
           //
           // Column has various properties to control how it sizes itself and
